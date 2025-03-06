@@ -1,5 +1,3 @@
-import 'dart:ui' show hashValues;
-
 class LatLng {
   /// Creates a geographical location specified in degrees [latitude] and
   /// [longitude].
@@ -45,5 +43,5 @@ class LatLng {
   }
 
   @override
-  int get hashCode => hashValues(latitude, longitude);
+  int get hashCode => Object.hash(latitude, longitude);
 }
