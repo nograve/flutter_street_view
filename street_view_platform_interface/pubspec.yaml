@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.1.2
-  stream_transform: ^2.0.0
+  plugin_platform_interface: ^2.1.8
+  stream_transform: ^2.1.1
   meta: ^1.7.0
 
 dev_dependencies:
